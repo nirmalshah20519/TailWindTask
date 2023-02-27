@@ -11,6 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
   <script src="https://cdn.tailwindcss.com/3.2.4"></script>
+  <style>
+    .hello:hover{
+      background: black;
+    }
+  </style>
   <script>
     tailwind.config = {
       darkMode: "class",
@@ -259,17 +264,17 @@
 
     <div class="xl:mx-36 md:grid grid-cols-3 gap-2 hidden">
       <div class="flex flex-col justify-between gap-y-32">
-        <div class="bg-no-repeat h-80 bg-cover content-center " style="background-image: url(./images/architecture.png);">
-          <div class="h-full w-full relative hover:bg-black hover:bg-opacity-50">
-            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white hover:w-full hover:text-center p-2 capitalize">            
+        <div class="bg-no-repeat h-80 bg-cover content-center group" style="background-image: url(./images/architecture.png); background-repeat: no-repeat; background-size: cover;">
+          <div class="h-full w-full relative group-hover:bg-black group-hover:bg-opacity-50">
+            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white group-hover:w-full group-hover:text-center p-2 capitalize">            
               architecture
             </p>
           </div>          
         </div>
 
-        <div class=" bg-no-repeat h-80 bg-cover content-center  " style="background-image: url(./images/photography.png);">
-          <div class="h-full w-full relative hover:bg-black hover:bg-opacity-50">
-            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white hover:w-full hover:text-center p-2 capitalize">            
+        <div class=" bg-no-repeat h-80 bg-cover content-center  group" style="background-image: url(./images/photography.png); background-repeat: no-repeat; background-size: cover;">
+          <div class="h-full w-full relative group-hover:bg-black group-hover:bg-opacity-50">
+            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white group-hover:w-full group-hover:text-center p-2 capitalize">            
               photography
             </p>
           </div>          
@@ -287,17 +292,17 @@
         
       </div>
       <div class="flex flex-col justify-between gap-y-32">
-        <div class="bg-no-repeat h-80 bg-cover content-center  " style="background-image: url(./images/interior.png);">
-          <div class="h-full w-full relative hover:bg-black hover:bg-opacity-50">
-            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white hover:w-full hover:text-center p-2 capitalize">            
+        <div class="bg-no-repeat h-80 bg-cover content-center  group" style="background-image: url(./images/interior.png); background-repeat: no-repeat; background-size: cover;">
+          <div class="h-full w-full relative group-hover:bg-black group-hover:bg-opacity-50">
+            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white group-hover:w-full group-hover:text-center p-2 capitalize">            
               Interior
             </p>
           </div>          
         </div>
 
-        <div class="bg-no-repeat h-80 bg-cover content-center  " style="background-image: url(./images/animal.png);">
-          <div class="h-full w-full relative hover:bg-black hover:bg-opacity-50">
-            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white hover:w-full hover:text-center p-2 capitalize">            
+        <div class="bg-no-repeat h-80 bg-cover content-center group " style="background-image: url(./images/animal.png); background-repeat: no-repeat; background-size: cover;">
+          <div class="h-full w-full relative group-hover:bg-black group-hover:bg-opacity-50">
+            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl bg-white group-hover:w-full group-hover:text-center p-2 capitalize">            
               animal
             </p>
           </div>          
